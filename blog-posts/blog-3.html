@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Simple Page Needs
+================================================== -->
+    <title>Portfólio</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfólio">
+    <meta name="keywords" content="personal, vcard, portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon
+================================================== -->
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <!-- CSS
+================================================== -->
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../cubeportfolio/css/cubeportfolio.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/colors/yellow.css" id="color" />
+
+    <!-- Google Web fonts
+================================================== -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+
+    <!-- Font Icons
+================================================== -->
+    <link rel="stylesheet" href="../icon-fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../icon-fonts/web-design/flaticon.css" />
+
+    <!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+    <!-- Preloading -->
+    <div id="preloader">
+        <div class="spinner">
+        </div>
+    </div>
+
+    <!-- Wrapper -->
+    <div class="wrapper top_60 container">
+        <div class="row">
+
+            <!-- Profile Section
+================================================== -->
+            <div class="col-lg-3 col-md-4">
+                <div class="profile">
+                    <div class="profile-name">
+                        <span class="name">Harold Marcel illert</span><br>
+                        <span class="job">Engenheiro de software</span>
+                    </div>
+                    <figure class="profile-image">
+                        <img src="https://i.ibb.co/zhmsGmR/foto1.jpg" alt="">
+                    </figure>
+                    <ul class="profile-information">
+                        <li></li>
+                        <li>
+                            <p><span>Nome:</span> Harold Marcel Illert</p>
+                        </li>
+                        <li>
+                            <p><span>Nascimento:</span> 16 Fevereiro 1995</p>
+                        </li>
+                        <li>
+                            <p><span>Job:</span> Engenheiro de software</p>
+                        </li>
+                        <li>
+                            <p><span>Email:</span> harold_illert@outlook.com</p>
+                        </li>
+                        <li>
+                            <p><span>Github:</span> github.com/harryninja</p>
+                        </li>
+                        <li>
+                            <p><span>Linkedin:</span> linkedin.com/in/harold-illert/</p>
+                        </li>
+                    </ul>
+                    <div class="col-md-12">
+                        <button id="pdfButton" class="site-btn icon">Visualizar CV <i class="fa fa-download"
+                                aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page Tab Container Div -->
+            <div id="ajax-tab-container" class="col-lg-9 col-md-8 tab-container">
+
+                <!-- Header
+================================================== -->
+                <div class="row">
+                    <header class="col-md-12">
+                        <nav>
+                            <div class="row">
+                                <!-- navigation bar -->
+                                <div class="col-md-8 col-sm-8 col-xs-4">
+                                    <ul class="tabs">
+                                        <li class="tab">
+                                            <a class="home-btn" href="#home"><i class="fa fa-home"
+                                                    aria-hidden="true"></i></a>
+                                        </li>
+                                        <li class="tab"><a href="../index.html#blog">De volta ao Blog</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-8 dynamic">
+                                    <button onclick="redirectToWhatsapp()"
+                                        class="pull-right site-btn icon hidden-xs">Fale comigo <i
+                                            class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                                    <div class="hamburger pull-right hidden-lg hidden-md"><i class="fa fa-bars"
+                                            aria-hidden="true"></i></div>
+                                    <div class="hidden-md social-icons pull-right">
+                                        <a class="fb" onclick="redirectToGithub()"
+                                            src="https://www.github.com/harryninja"><i class="fa fa-github"
+                                                aria-hidden="true"></i></a>
+                                        <a class="tw" onclick="redirectToLinkedin()"
+                                            src="https://www.linkedin.com/in/harold-illert/"><i class="fa fa-linkedin"
+                                                aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </header>
+                </div>
+                <!-- Page Content
+================================================== -->
+                <div id="content" class="panel-container col-md-12">
+
+                    <!-- Blog Page
+    ================================================== -->
+                    <div id="blog-post">
+                        <div class="row">
+                            <!--Blog Post-->
+                            <div class="col-md-12 post">
+                                <div class="blog-image">
+                                    <img src="../images/blogs/unrealvsunity/unrealvsunity.webp" alt="">
+                                </div>
+                                <div class="post-content">
+                                    <h1 class="blog-title bottom_30 top_30">Unity VS Unreal Engine</h1>
+                                    <p>Eu já fiz games simples nas duas Plataformas e o que achei melhor para esse tipo
+                                        de games é o unity, mas isso é minha opinião de acordo com a experiência que
+                                        tive, mas não quer dizer que eu saiba de tudo então vou pesquisar e deixar aqui
+                                        os prós e contras de cada um, lembrando que isso é a mais comum comparação
+                                        quando se trata de plataformas de criação de games mas existem diversas outras e
+                                        cada uma com algo a mais ou a menos e para cada necessidade. </p>
+                                    <br>
+                                    <h4>Unity: </h4>
+                                    <br>
+                                    <div>
+                                        <ul class="col-md-12 top_30 bottom_45">
+                                            Prós:
+                                            <li>Aprendizado fácil e rápido para iniciantes em desenvolvimento de jogos.
+                                            </li>
+                                            <li>Suporte multiplataforma, permitindo que você desenvolva jogos para
+                                                várias plataformas, como PC, consoles, dispositivos móveis e realidade
+                                                virtual.</li>
+                                            <li>Grande comunidade de desenvolvedores e recursos disponíveis, incluindo
+                                                documentação abrangente, tutoriais e fóruns de suporte.</li>
+                                            <li>Amplas opções de extensibilidade e integração com outras ferramentas e
+                                                serviços.</li>
+                                            <li>Fluxo de trabalho visual e intuitivo para criação de jogos 2D e 3D.</li>
+                                        </ul>
+                                        <ul>
+                                            Contras:
+                                            <li>Menos poderoso em termos de gráficos e recursos avançados em comparação
+                                                com o Unreal Engine.</li>
+                                            <li>Licenciamento baseado em receita, o que significa que você precisa pagar
+                                                uma porcentagem dos lucros do seu jogo para a Unity Technologies.</li>
+                                            <li>Limitações em termos de desempenho e escalabilidade para jogos altamente
+                                                complexos ou com grandes demandas de processamento.</li>
+                                        </ul>
+                                    </div>
+                                    <br>
+                                    <h4>Unreal Engine: </h4>
+                                    <br>
+                                    <div>
+                                        <ul class="col-md-12 top_30 bottom_45">
+                                            Prós:
+                                            <li>Gráficos de alta qualidade e recursos avançados, como renderização em
+                                                tempo real, efeitos visuais avançados e física realista.</li>
+                                            <li>Poderoso motor de jogo para desenvolvimento de jogos AAA (triple-A) e
+                                                experiências imersivas.</li>
+                                            <li>Licença gratuita para uso pessoal e comercial, com uma taxa de royalties
+                                                apenas após atingir um determinado limite de receita.</li>
+                                            <li>Blueprints, um sistema visual de programação que permite criar jogos sem
+                                                escrever código.</li>
+                                            <li>Suporte para realidade virtual e realidade aumentada.</li>
+                                        </ul>
+                                        <ul>
+                                            Contras:
+                                            <li>Curva de aprendizado mais íngreme, especialmente para iniciantes em
+                                                desenvolvimento de jogos.</li>
+                                            <li>Requer um hardware mais poderoso para executar e desenvolver jogos,
+                                                devido aos seus recursos avançados.</li>
+                                            <li>Menos suporte multiplataforma em comparação com o Unity.</li>
+                                            <li>Comunidade de desenvolvedores menor em comparação com o Unity, mas ainda
+                                                assim ativa e com recursos disponíveis.</li>
+                                        </ul>
+                                    </div>
+                                    </br>
+                                    </br>
+                                    </br>
+                                    </br>
+                                    </br>
+                                </div>
+
+                            </div>
+
+                        </div> <!-- post end -->
+                    </div>
+                </div>
+
+            </div><!-- Content - End -->
+
+        </div> <!-- Tab Container - End -->
+    </div> <!-- Row - End -->
+    </div> <!-- Wrapper - End -->
+
+    <!-- Javascripts
+================================================== -->
+    <script src="../js/jquery-2.1.4.min.js"></script>
+    <script src="../cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.easytabs.min.js"></script>
+    <script src="../js/main.js"></script>
+    <!-- for color alternatives -->
+    <script src="../js/jquery.cookie-1.4.1.min.js"></script>
+    <script src="../js/subpage-demo.js"></script>
+    <link rel="stylesheet" href="../css/Demo.min.css" />
+    <script>
+        $(document).ready(function () {
+            $('#pdfButton').click(function () {
+                var pdfUrl = 'images/Total.pdf';
+                window.open(pdfUrl, '_blank');
+            });
+        });
+    </script>
+    <script>
+        function redirectToLinkedin() {
+            window.location.href = "https://www.linkedin.com/in/harold-illert/";
+        }
+        function redirectToGithub() {
+            window.location.href = "https://www.github.com/harryninja";
+        }
+        function redirectToWhatsapp() {
+            window.location.href = "https://api.whatsapp.com/send?phone=81988752949";
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Simple Page Needs
+================================================== -->
+    <title>Portfólio</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfólio">
+    <meta name="keywords" content="personal, vcard, portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon
+================================================== -->
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <!-- CSS
+================================================== -->
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../cubeportfolio/css/cubeportfolio.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/colors/yellow.css" id="color" />
+
+    <!-- Google Web fonts
+================================================== -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+
+    <!-- Font Icons
+================================================== -->
+    <link rel="stylesheet" href="../icon-fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../icon-fonts/web-design/flaticon.css" />
+
+    <!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+    <!-- Preloading -->
+    <div id="preloader">
+        <div class="spinner">
+        </div>
+    </div>
+
+    <!-- Wrapper -->
+    <div class="wrapper top_60 container">
+        <div class="row">
+
+            <!-- Profile Section
+================================================== -->
+            <div class="col-lg-3 col-md-4">
+                <div class="profile">
+                    <div class="profile-name">
+                        <span class="name">Harold Marcel illert</span><br>
+                        <span class="job">Engenheiro de software</span>
+                    </div>
+                    <figure class="profile-image">
+                        <img src="https://i.ibb.co/zhmsGmR/foto1.jpg" alt="">
+                    </figure>
+                    <ul class="profile-information">
+                        <li></li>
+                        <li>
+                            <p><span>Nome:</span> Harold Marcel Illert</p>
+                        </li>
+                        <li>
+                            <p><span>Nascimento:</span> 16 Fevereiro 1995</p>
+                        </li>
+                        <li>
+                            <p><span>Job:</span> Engenheiro de software</p>
+                        </li>
+                        <li>
+                            <p><span>Email:</span> harold_illert@outlook.com</p>
+                        </li>
+                        <li>
+                            <p><span>Github:</span> github.com/harryninja</p>
+                        </li>
+                        <li>
+                            <p><span>Linkedin:</span> linkedin.com/in/harold-illert/</p>
+                        </li>
+                    </ul>
+                    <div class="col-md-12">
+                        <button id="pdfButton" class="site-btn icon">Visualizar CV <i class="fa fa-download"
+                                aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page Tab Container Div -->
+            <div id="ajax-tab-container" class="col-lg-9 col-md-8 tab-container">
+
+                <!-- Header
+================================================== -->
+                <div class="row">
+                    <header class="col-md-12">
+                        <nav>
+                            <div class="row">
+                                <!-- navigation bar -->
+                                <div class="col-md-8 col-sm-8 col-xs-4">
+                                    <ul class="tabs">
+                                        <li class="tab">
+                                            <a class="home-btn" href="#home"><i class="fa fa-home"
+                                                    aria-hidden="true"></i></a>
+                                        </li>
+                                        <li class="tab"><a href="../index.html#blog">De volta ao Blog</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 col-sm-4 col-xs-8 dynamic">
+                                    <button onclick="redirectToWhatsapp()"
+                                        class="pull-right site-btn icon hidden-xs">Fale comigo <i
+                                            class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                                    <div class="hamburger pull-right hidden-lg hidden-md"><i class="fa fa-bars"
+                                            aria-hidden="true"></i></div>
+                                    <div class="hidden-md social-icons pull-right">
+                                        <a class="fb" onclick="redirectToGithub()"
+                                            src="https://www.github.com/harryninja"><i class="fa fa-github"
+                                                aria-hidden="true"></i></a>
+                                        <a class="tw" onclick="redirectToLinkedin()"
+                                            src="https://www.linkedin.com/in/harold-illert/"><i class="fa fa-linkedin"
+                                                aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </header>
+                </div>
+                <!-- Page Content
+================================================== -->
+                <div id="content" class="panel-container col-md-12">
+
+                    <!-- Blog Page
+    ================================================== -->
+                    <div id="blog-post">
+                        <div class="row">
+                            <!--Blog Post-->
+                            <div class="col-md-12 post">
+                                <div class="blog-image">
+                                    <img src="../images/blogs/vscodeext/vscode.png" alt="">
+                                </div>
+                                <div class="post-content">
+                                    <h1 class="blog-title bottom_30 top_30">Extensões para VScode</h1>
+                                    <p>Extensões de uma IDE são de muita ajuda para o desenvolvedor, elas podem aumentar
+                                        bastante a produtividade ou tornar o trabalho de desenvolvimento bem mais
+                                        divertido e agradável. </p>
+                                    <br>
+                                    <p>Eu pessoalmente uso várias extensões legais para facilitar meu trabalho e para
+                                        deixar a IDE com minha cara, se você quer aprender a adicionar extensões vou te
+                                        explicar como fazer isso no VScode, clicando no icone de extensões como na
+                                        imagem abaixo você pode abrir a "loja" de extensões onde você pode procurar por
+                                        uma extensão ou ver as que você ja tem em sua IDE. </p>
+                                    <br>
+                                    <div class="blog-image">
+                                        <img src="../images/blogs/vscodeext/vscode2.png" alt="">
+                                    </div>
+                                    <br>
+                                    <p>Vou deixar aqui algumas extensões legais que uso: </p>
+                                    <br>
+                                    <ol class="bottom_40 top_40 col-md-8">
+                                        Extensões
+                                        <li>C# Snippets</li>
+                                        <li>C# Dev Kit</li>
+                                        <li>C#</li>
+                                        <li>Bracket Pair Colorization Toggler</li>
+                                        <li>C/C++ Extension Pack</li>
+                                        <li>C/C++ Snippets</li>
+                                        <li>C/C++</li>
+                                        <li>Code Spell Checker</li>
+                                        <li>Color Picker</li>
+                                        <li>CSS Peek</li>
+                                        <li>Docker</li>
+                                        <li>Error Lens</li>
+                                        <li>ES7+ React/Redux/React-native snippets</li>
+                                        <li>Git Graph</li>
+                                        <li>Git History</li>
+                                        <li>Highlight Matching Tag</li>
+                                        <li>IntelliCode</li>
+                                        <li>MonoBehavior Snippets</li>
+                                        <li>Npm intellisense</li>
+                                        <li>Path intellisense</li>
+                                        <li>Prisma</li>
+                                        <li>Shader languages support for VSCode</li>
+                                        <li>ShaderLabVSCode</li>
+                                        <li>Solidity</li>
+                                        <li>Solidity Extended</li>
+                                        <li>SonarLint</li>
+                                        <li>Subtle Match Brackets</li>
+                                        <li>Svg Preview</li>
+                                        <li>Unity Code</li>
+                                        <li>WakaTime</li>
+                                        <li>Unity ToolBox</li>
+                                    </ol>
+                                    </br>
+                                    </br>
+                                    </br>
+                                    </br>
+                                    <ol class="bottom_60 top_60 col-md-8">
+                                        Temas
+                                        <li>2077 theme</li>
+                                        <li>City Lights theme</li>
+                                        <li>Power Mode</li>
+                                        <li>Cyberpunk theme</li>
+                                        <li>Field lights theme</li>
+                                        <li>Material Icon theme</li>
+                                        <li>Neon Shimmer theme</li>
+                                    </ol>
+                                    </br>
+                                    </br>
+                                    </br>
+                                    </br>
+                                    </br>
+                                </div>
+
+                            </div>
+
+                        </div> <!-- post end -->
+                    </div>
+                </div>
+
+            </div><!-- Content - End -->
+
+        </div> <!-- Tab Container - End -->
+    </div> <!-- Row - End -->
+    </div> <!-- Wrapper - End -->
+
+    <!-- Javascripts
+================================================== -->
+    <script src="../js/jquery-2.1.4.min.js"></script>
+    <script src="../cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.easytabs.min.js"></script>
+    <script src="../js/main.js"></script>
+    <!-- for color alternatives -->
+    <script src="../js/jquery.cookie-1.4.1.min.js"></script>
+    <script src="../js/subpage-demo.js"></script>
+    <link rel="stylesheet" href="../css/Demo.min.css" />
+    <script>
+        $(document).ready(function () {
+            $('#pdfButton').click(function () {
+                var pdfUrl = 'images/Total.pdf';
+                window.open(pdfUrl, '_blank');
+            });
+        });
+    </script>
+    <script>
+        function redirectToLinkedin() {
+            window.location.href = "https://www.linkedin.com/in/harold-illert/";
+        }
+        function redirectToGithub() {
+            window.location.href = "https://www.github.com/harryninja";
+        }
+        function redirectToWhatsapp() {
+            window.location.href = "https://api.whatsapp.com/send?phone=81988752949";
+        }
+    </script>
+
+</body>
+
+</html>
