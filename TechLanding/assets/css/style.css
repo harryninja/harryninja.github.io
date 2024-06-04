@@ -2745,6 +2745,8 @@ header.header-1 {
 
 header.header-1 .logo {
   padding: 32px 0px;
+  max-width: 250px;
+  max-height: 250px;
 }
 
 header.header-1 .main-menu ul {
@@ -2832,6 +2834,8 @@ header.header-1 .main-menu ul > li > ul ul {
 
 header .logo a {
   display: block;
+  max-width: 250px;
+  max-height: 250px;
 }
 
 header.header-2 {
@@ -3751,7 +3755,7 @@ header.header-3 .main-menu ul > li > ul ul {
 }
 
 /* ---------------------------------
-    Offset Canvas Menu Style 
+    Offset Canvas Menu Style
 ------------------------------------*/
 .offset-menu {
   position: fixed;
