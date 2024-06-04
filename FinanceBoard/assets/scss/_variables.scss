@@ -1,0 +1,365 @@
+$blue: #3c63e2 !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #d63384 !default;
+$red: #f73563 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffbd17 !default;
+$green: #3ac79b !default;
+$teal: #0ab2be !default;
+$cyan: #0dcaf0 !default;
+
+:root {
+    --FriezaFinance-green: $green;
+    --FriezaFinance-red: $red;
+    --FriezaFinance-yellow: $yellow;
+    --FriezaFinance-blue: $blue;
+    --FriezaFinance-rounded: 15px;
+    --FriezaFinance-padding: 15px;
+    --bs-gutter-x: var(--FriezaFinance-padding); //bootstrap column padding
+    --FriezaFinance-input-rounded: 10px;
+
+    .row > *,
+    .container,
+    .container-fluid,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl,
+    .container-xxl {
+        padding-left: var(--FriezaFinance-padding);
+        padding-right: var(--FriezaFinance-padding);
+    }
+    .row {
+        margin-right: calc(var(--FriezaFinance-padding) * -1);
+        margin-left: calc(var(--FriezaFinance-padding) * -1);
+    }
+
+    /* radial gradient colors */
+    --FriezaFinance-theme-color-grad-1: #57bdff;
+    --FriezaFinance-theme-color-grad-2: #4f77fb;
+    --FriezaFinance-theme-color-grad-3: #6528cf;
+
+    /* color schemes */
+    --FriezaFinance-theme-color: #092c9f;
+    --FriezaFinance-theme-color-2: #001c77;
+    --FriezaFinance-theme-color-light: #d3ddfd;
+    --FriezaFinance-theme-bordercolor: #dadff6;
+    --FriezaFinance-theme-text: #ffffff;
+
+    --FriezaFinance-header: transparent;
+    --FriezaFinance-header-active: #ffffff;
+    --FriezaFinance-header-text: #000000;
+
+    --FriezaFinance-footer: #ffffff;
+    --FriezaFinance-footer-text: #999999;
+    --FriezaFinance-footer-text-active: var(--FriezaFinance-theme-color);
+
+    --FriezaFinance-sidebar: var(--FriezaFinance-theme-color);
+    --FriezaFinance-sidebar-text: #ffffff;
+    --FriezaFinance-sidebar-text-active: #ffffff;
+
+    --FriezaFinance-card-color: rgba(255, 255, 255, 0.85);
+    --FriezaFinance-card-text: #000000;
+
+    --FriezaFinance-page-bg-1: #f1f3f8;
+    --FriezaFinance-page-bg-2: #e5ecfe;
+    --FriezaFinance-page-text: #000000;
+    --FriezaFinance-page-link: var(--FriezaFinance-theme-color);
+}
+
+.theme-indigo{
+    /* radial gradient colors */
+    --FriezaFinance-theme-color-grad-1: #0897e9;
+    --FriezaFinance-theme-color-grad-2: #5100d4;
+    --FriezaFinance-theme-color-grad-3: #270069;
+
+    /* color schemes */
+    --FriezaFinance-theme-color: $indigo;
+    --FriezaFinance-theme-color-2: darken($indigo, 8%);
+    --FriezaFinance-theme-color-light: #f4fdff;
+    --FriezaFinance-theme-bordercolor: rgba(darken($indigo, 25%), 0.15);
+    --FriezaFinance-theme-text: #ffffff;
+
+    --FriezaFinance-header: transparent;
+    --FriezaFinance-header-active: #ffffff;
+    --FriezaFinance-header-text: #000000;
+
+    --FriezaFinance-footer: #ffffff;
+    --FriezaFinance-footer-text: #999999;
+    --FriezaFinance-footer-text-active: var(--FriezaFinance-theme-color);
+
+    --FriezaFinance-sidebar: var(--FriezaFinance-theme-color);
+    --FriezaFinance-sidebar-text: #ffffff;
+    --FriezaFinance-sidebar-text-active: #ffffff;
+
+
+    --FriezaFinance-page-bg-1: lighten($red, 40%);
+    --FriezaFinance-page-bg-2: lighten($indigo, 45%);
+    --FriezaFinance-page-text: #000000;
+    --FriezaFinance-page-link: var(--FriezaFinance-theme-color);
+
+}
+
+
+.theme-purple{
+    /* radial gradient colors */
+    --FriezaFinance-theme-color-grad-1: #e908d8;
+    --FriezaFinance-theme-color-grad-2: #5a2ab3;
+    --FriezaFinance-theme-color-grad-3: #300284;
+
+    /* color schemes */
+    --FriezaFinance-theme-color: $purple;
+    --FriezaFinance-theme-color-2: darken($purple, 8%);
+    --FriezaFinance-theme-color-light: #f4fdff;
+    --FriezaFinance-theme-bordercolor: rgba(darken($purple, 25%), 0.15);
+    --FriezaFinance-theme-text: #ffffff;
+
+    --FriezaFinance-header: transparent;
+    --FriezaFinance-header-active: #ffffff;
+    --FriezaFinance-header-text: #000000;
+
+    --FriezaFinance-footer: #ffffff;
+    --FriezaFinance-footer-text: #999999;
+    --FriezaFinance-footer-text-active: var(--FriezaFinance-theme-color);
+
+    --FriezaFinance-sidebar: var(--FriezaFinance-theme-color);
+    --FriezaFinance-sidebar-text: #ffffff;
+    --FriezaFinance-sidebar-text-active: #ffffff;
+
+    --FriezaFinance-page-bg-1: lighten($cyan, 45%);
+    --FriezaFinance-page-bg-2: lighten($purple, 45%);
+    --FriezaFinance-page-text: #000000;
+    --FriezaFinance-page-link: var(--FriezaFinance-theme-color);
+
+}
+
+.theme-pink{
+    /* radial gradient colors */
+    --FriezaFinance-theme-color-grad-1: #f38ac4;
+    --FriezaFinance-theme-color-grad-2: #d11e78;
+    --FriezaFinance-theme-color-grad-3: #300284;
+
+    /* color schemes */
+    --FriezaFinance-theme-color: $pink;
+    --FriezaFinance-theme-color-2: darken($pink, 8%);
+    --FriezaFinance-theme-color-light: #f4fdff;
+    --FriezaFinance-theme-bordercolor: rgba(darken($pink, 25%), 0.15);
+    --FriezaFinance-theme-text: #ffffff;
+
+    --FriezaFinance-header: transparent;
+    --FriezaFinance-header-active: #ffffff;
+    --FriezaFinance-header-text: #000000;
+
+    --FriezaFinance-footer: #ffffff;
+    --FriezaFinance-footer-text: #999999;
+    --FriezaFinance-footer-text-active: var(--FriezaFinance-theme-color);
+
+    --FriezaFinance-sidebar: var(--FriezaFinance-theme-color);
+    --FriezaFinance-sidebar-text: #ffffff;
+    --FriezaFinance-sidebar-text-active: #ffffff;
+
+    --FriezaFinance-page-bg-1: lighten($yellow, 43%);
+    --FriezaFinance-page-bg-2: lighten($pink, 45%);
+    --FriezaFinance-page-text: #000000;
+    --FriezaFinance-page-link: var(--FriezaFinance-theme-color);
+}
+
+.theme-red{
+    /* radial gradient colors */
+    --FriezaFinance-theme-color-grad-1: #ffc107;
+    --FriezaFinance-theme-color-grad-2: #e91547;
+    --FriezaFinance-theme-color-grad-3: #77001c;
+
+    /* color schemes */
+    /* color schemes */
+    --FriezaFinance-theme-color: $red;
+    --FriezaFinance-theme-color-2: darken($red, 8%);
+    --FriezaFinance-theme-color-light: #f4fdff;
+    --FriezaFinance-theme-bordercolor: rgba(darken($red, 25%), 0.10);
+    --FriezaFinance-theme-text: #ffffff;
+
+    --FriezaFinance-header: transparent;
+    --FriezaFinance-header-active: #ffffff;
+    --FriezaFinance-header-text: #000000;
+
+    --FriezaFinance-footer: #ffffff;
+    --FriezaFinance-footer-text: #999999;
+    --FriezaFinance-footer-text-active: var(--FriezaFinance-theme-color);
+
+    --FriezaFinance-sidebar: var(--FriezaFinance-theme-color);
+    --FriezaFinance-sidebar-text: #ffffff;
+    --FriezaFinance-sidebar-text-active: #ffffff;
+
+    --FriezaFinance-page-bg-1: lighten($yellow, 42%);
+    --FriezaFinance-page-bg-2: lighten($red, 45%);
+    --FriezaFinance-page-text: #000000;
+    --FriezaFinance-page-link: var(--FriezaFinance-theme-color);
+}
+
+.theme-orange{
+    /* radial gradient colors */
+    --FriezaFinance-theme-color-grad-1: #ffc107;
+    --FriezaFinance-theme-color-grad-2: #ec6c02;
+    --FriezaFinance-theme-color-grad-3: #c70042;
+
+    /* color schemes */
+    --FriezaFinance-theme-color: $orange;
+    --FriezaFinance-theme-color-2: darken($orange, 8%);
+    --FriezaFinance-theme-color-light: #f4fdff;
+    --FriezaFinance-theme-bordercolor: rgba(darken($orange, 25%), 0.15);
+    --FriezaFinance-theme-text: #ffffff;
+
+    --FriezaFinance-header: transparent;
+    --FriezaFinance-header-active: #ffffff;
+    --FriezaFinance-header-text: #000000;
+
+    --FriezaFinance-footer: #ffffff;
+    --FriezaFinance-footer-text: #999999;
+    --FriezaFinance-footer-text-active: var(--FriezaFinance-theme-color);
+
+    --FriezaFinance-sidebar: var(--FriezaFinance-theme-color);
+    --FriezaFinance-sidebar-text: #ffffff;
+    --FriezaFinance-sidebar-text-active: #ffffff;
+
+    --FriezaFinance-page-bg-1: lighten($yellow, 43%);
+    --FriezaFinance-page-bg-2: lighten($orange, 42%);
+    --FriezaFinance-page-text: #000000;
+    --FriezaFinance-page-link: var(--FriezaFinance-theme-color);
+}
+
+.theme-yellow{
+    /* radial gradient colors */
+    --FriezaFinance-theme-color-grad-1: #ffdb6f;
+    --FriezaFinance-theme-color-grad-2: #f0ac00;
+    --FriezaFinance-theme-color-grad-3: #f03000;
+
+    /* color schemes */
+   --FriezaFinance-theme-color: $yellow;
+   --FriezaFinance-theme-color-2: darken($yellow, 8%);
+   --FriezaFinance-theme-color-light: #f4fdff;
+   --FriezaFinance-theme-bordercolor: rgba(darken($yellow, 25%), 0.15);
+   --FriezaFinance-theme-text: #ffffff;
+
+   --FriezaFinance-header: transparent;
+   --FriezaFinance-header-active: #ffffff;
+   --FriezaFinance-header-text: #000000;
+
+   --FriezaFinance-footer: #ffffff;
+   --FriezaFinance-footer-text: #999999;
+   --FriezaFinance-footer-text-active: var(--FriezaFinance-theme-color);
+
+   --FriezaFinance-sidebar: var(--FriezaFinance-theme-color);
+   --FriezaFinance-sidebar-text: #ffffff;
+   --FriezaFinance-sidebar-text-active: #ffffff;
+
+   --FriezaFinance-page-bg-1: lighten($blue, 42%);
+   --FriezaFinance-page-bg-2: lighten($yellow, 42%);
+   --FriezaFinance-page-text: #000000;
+   --FriezaFinance-page-link: var(--FriezaFinance-theme-color);
+}
+
+
+.theme-green{
+    /* radial gradient colors */
+    --FriezaFinance-theme-color-grad-1: #a9e682;
+    --FriezaFinance-theme-color-grad-2: #1fbb8a;
+    --FriezaFinance-theme-color-grad-3: #0072c3;
+
+    /* color schemes */
+    --FriezaFinance-theme-color: $green;
+    --FriezaFinance-theme-color-2: darken($green, 8%);
+    --FriezaFinance-theme-color-light: #f4fdff;
+    --FriezaFinance-theme-bordercolor: rgba(darken($green, 25%), 0.15);
+    --FriezaFinance-theme-text: #ffffff;
+
+    --FriezaFinance-header: transparent;
+    --FriezaFinance-header-active: #ffffff;
+    --FriezaFinance-header-text: #000000;
+
+    --FriezaFinance-footer: #ffffff;
+    --FriezaFinance-footer-text: #999999;
+    --FriezaFinance-footer-text-active: var(--FriezaFinance-theme-color);
+
+    --FriezaFinance-sidebar: var(--FriezaFinance-theme-color);
+    --FriezaFinance-sidebar-text: #ffffff;
+    --FriezaFinance-sidebar-text-active: #ffffff;
+
+    --FriezaFinance-page-bg-1: lighten($yellow, 45%);
+    --FriezaFinance-page-bg-2: lighten($green, 45%);
+    --FriezaFinance-page-text: #000000;
+    --FriezaFinance-page-link: var(--FriezaFinance-theme-color);
+}
+
+
+.theme-teal{
+    /* radial gradient colors */
+    --FriezaFinance-theme-color-grad-1: #a2fffa;
+    --FriezaFinance-theme-color-grad-2: #00a2ad;
+    --FriezaFinance-theme-color-grad-3: #3f51b5;
+
+    /* color schemes */
+    --FriezaFinance-theme-color: $teal;
+    --FriezaFinance-theme-color-2: darken($teal, 8%);
+    --FriezaFinance-theme-color-light: #f4fdff;
+    --FriezaFinance-theme-bordercolor: rgba(darken($teal, 25%), 0.15);
+    --FriezaFinance-theme-text: #ffffff;
+
+    --FriezaFinance-header: transparent;
+    --FriezaFinance-header-active: #ffffff;
+    --FriezaFinance-header-text: #000000;
+
+    --FriezaFinance-footer: #ffffff;
+    --FriezaFinance-footer-text: #999999;
+    --FriezaFinance-footer-text-active: var(--FriezaFinance-theme-color);
+
+    --FriezaFinance-sidebar: var(--FriezaFinance-theme-color);
+    --FriezaFinance-sidebar-text: #ffffff;
+    --FriezaFinance-sidebar-text-active: #ffffff;
+
+    --FriezaFinance-page-bg-1: lighten($red, 39%);
+    --FriezaFinance-page-bg-2: lighten($teal, 55%);
+    --FriezaFinance-page-text: #000000;
+    --FriezaFinance-page-link: var(--FriezaFinance-theme-color);
+}
+
+
+.theme-cyan{
+    /* radial gradient colors */
+    --FriezaFinance-theme-color-grad-1: #9df5dc;
+    --FriezaFinance-theme-color-grad-2: #00b5da;
+    --FriezaFinance-theme-color-grad-3: #673ab7;
+
+    /* color schemes */
+    --FriezaFinance-theme-color: $cyan;
+    --FriezaFinance-theme-color-2: darken($cyan, 8%);
+    --FriezaFinance-theme-color-light: #f4fdff;
+    --FriezaFinance-theme-bordercolor: rgba(darken($cyan, 25%), 0.15);
+    --FriezaFinance-theme-text: #ffffff;
+
+    --FriezaFinance-header: transparent;
+    --FriezaFinance-header-active: #ffffff;
+    --FriezaFinance-header-text: #000000;
+
+    --FriezaFinance-footer: #ffffff;
+    --FriezaFinance-footer-text: #999999;
+    --FriezaFinance-footer-text-active: var(--FriezaFinance-theme-color);
+
+    --FriezaFinance-sidebar: var(--FriezaFinance-theme-color);
+    --FriezaFinance-sidebar-text: #ffffff;
+    --FriezaFinance-sidebar-text-active: #ffffff;
+
+    --FriezaFinance-page-bg-1: lighten($red, 40%);
+    --FriezaFinance-page-bg-2: lighten($cyan, 45%);
+    --FriezaFinance-page-text: #000000;
+    --FriezaFinance-page-link: var(--FriezaFinance-theme-color);
+}
+
+
+@media screen and (max-width: 340px) {
+    :root {
+        --FriezaFinance-padding: 10px;
+        --FriezaFinance-rounded: 12px;
+    }
+
+}

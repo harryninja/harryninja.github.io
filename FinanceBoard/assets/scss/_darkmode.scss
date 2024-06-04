@@ -1,0 +1,314 @@
+.dark-mode {
+    .alert-danger,
+    .card.alert-danger,
+    .bg-danger-light {
+        background-color: rgba($red, 0.35);
+    }
+    .alert-info,
+    .card.alert-info,
+    .bg-info-light {
+        background-color: rgba($teal, 0.35);
+    }
+    .alert-primary,
+    .card.alert-primary,
+    .bg-primary-light {
+        background-color: rgba($blue, 0.35);
+    }
+    .alert-warning,
+    .card.alert-warning,
+    .bg-warning-light {
+        background-color: rgba($yellow, 0.35);
+    }
+    .alert-success,
+    .card.alert-success,
+    .bg-success-light {
+        background-color: rgba($green, 0.35);
+    }
+    .alert-theme,
+    .card.alert-theme,
+    .bg-theme-light {
+        background-color: var(--FriezaFinance-theme-color-light);
+    }
+
+    --FriezaFinance-sidebar: var(--FriezaFinance-theme-color);
+    --FriezaFinance-sidebar-text: #ffffff;
+    --FriezaFinance-sidebar-text-active: #ffffff;
+    --FriezaFinance-card-color: rgba(255, 255, 255, 0.10);
+    --FriezaFinance-card-text: #ffffff;
+    --FriezaFinance-input-color: rgba(0, 0, 0, 0.25);
+    --FriezaFinance-input-bordercolor: rgba(255, 255, 255, 0.1);
+    --FriezaFinance-input-text: #ffffff;
+
+    --FriezaFinance-theme-color: #0a298d;
+    --FriezaFinance-theme-color-light: rgba(10, 41, 141, 0.5);
+    --FriezaFinance-theme-bordercolor: #041344;
+    --FriezaFinance-theme-text: #ffffff;
+    --FriezaFinance-theme-modal: #0b2783;
+    --FriezaFinance-header: transparent;
+    --FriezaFinance-header-active: #03175a;
+    --FriezaFinance-header-text: #ffffff;
+    --FriezaFinance-footer: #03175a;
+    --FriezaFinance-footer-text: #6683e0;
+    --FriezaFinance-footer-text-active: var(--FriezaFinance-theme-text);
+    --FriezaFinance-page-bg-1: #001149;
+    --FriezaFinance-page-bg-2: #000000;
+    --FriezaFinance-page-text: #000000;
+    --FriezaFinance-page-link: var(--FriezaFinance-theme-color);
+
+    .theme-indigo {
+        --FriezaFinance-theme-color: darken($indigo, 32%);
+        --FriezaFinance-theme-color-light: darken($indigo, 30%);
+        --FriezaFinance-theme-bordercolor: darken($indigo, 40%);
+        --FriezaFinance-theme-text: #ffffff;
+        --FriezaFinance-theme-modal: darken($indigo, 30%);
+        --FriezaFinance-header: transparent;
+        --FriezaFinance-header-active: darken($indigo, 26%);
+        --FriezaFinance-header-text: var(--FriezaFinance-theme-text);
+        --FriezaFinance-footer: darken($indigo, 26%);
+        --FriezaFinance-footer-text: lighten($indigo, 25%);
+        --FriezaFinance-footer-text-active: var(--FriezaFinance-theme-text);
+        --FriezaFinance-page-bg-1: darken($indigo, 35%);
+        --FriezaFinance-page-bg-2: darken($indigo, 50%);
+        --FriezaFinance-page-link: var(--FriezaFinance-theme-color);
+    }
+    .theme-purple {
+        --FriezaFinance-theme-color: darken($purple, 32%);
+        --FriezaFinance-theme-color-light: darken($purple, 30%);
+        --FriezaFinance-theme-bordercolor: darken($purple, 40%);
+        --FriezaFinance-theme-text: #ffffff;
+        --FriezaFinance-theme-modal: darken($purple, 30%);
+        --FriezaFinance-header: transparent;
+        --FriezaFinance-header-active: darken($purple, 26%);
+        --FriezaFinance-header-text: var(--FriezaFinance-theme-text);
+        --FriezaFinance-footer: darken($purple, 26%);
+        --FriezaFinance-footer-text: lighten($purple, 25%);
+        --FriezaFinance-footer-text-active: var(--FriezaFinance-theme-text);
+        --FriezaFinance-page-bg-1: darken($purple, 35%);
+        --FriezaFinance-page-bg-2: darken($purple, 50%);
+        --FriezaFinance-page-link: var(--FriezaFinance-theme-color);
+    }
+
+    .theme-pink {
+        --FriezaFinance-theme-color: darken($pink, 32%);
+        --FriezaFinance-theme-color-light: darken($pink, 30%);
+        --FriezaFinance-theme-bordercolor: darken($pink, 40%);
+        --FriezaFinance-theme-text: #ffffff;
+        --FriezaFinance-theme-modal: darken($pink, 30%);
+        --FriezaFinance-header: transparent;
+        --FriezaFinance-header-active: darken($pink, 26%);
+        --FriezaFinance-header-text: var(--FriezaFinance-theme-text);
+        --FriezaFinance-footer: darken($pink, 26%);
+        --FriezaFinance-footer-text: lighten($pink, 25%);
+        --FriezaFinance-footer-text-active: var(--FriezaFinance-theme-text);
+        --FriezaFinance-page-bg-1: darken($pink, 35%);
+        --FriezaFinance-page-bg-2: darken($pink, 50%);
+        --FriezaFinance-page-link: var(--FriezaFinance-theme-color);
+    }
+
+    .theme-red {
+        --FriezaFinance-theme-color: darken($red, 38%);
+        --FriezaFinance-theme-color-light: darken($red, 36%);
+        --FriezaFinance-theme-bordercolor: darken($red, 46%);
+        --FriezaFinance-theme-text: #ffffff;
+        --FriezaFinance-theme-modal: darken($red, 36%);
+        --FriezaFinance-header: transparent;
+        --FriezaFinance-header-active: darken($red, 32%);
+        --FriezaFinance-header-text: var(--FriezaFinance-theme-text);
+        --FriezaFinance-footer: darken($red, 32%);
+        --FriezaFinance-footer-text: lighten($red, 20%);
+        --FriezaFinance-footer-text-active: var(--FriezaFinance-theme-text);
+        --FriezaFinance-page-bg-1: darken($red, 42%);
+        --FriezaFinance-page-bg-2: darken($red, 60%);
+        --FriezaFinance-page-link: var(--FriezaFinance-theme-color);
+    }
+
+    .theme-orange {
+        --FriezaFinance-theme-color: darken($orange, 38%);
+        --FriezaFinance-theme-color-light: darken($orange, 36%);
+        --FriezaFinance-theme-bordercolor: darken($orange, 44%);
+        --FriezaFinance-theme-text: #ffffff;
+        --FriezaFinance-theme-modal: darken($orange, 36%);
+        --FriezaFinance-header: transparent;
+        --FriezaFinance-header-active: darken($orange, 32%);
+        --FriezaFinance-header-text: var(--FriezaFinance-theme-text);
+        --FriezaFinance-footer: darken($orange, 32%);
+        --FriezaFinance-footer-text: lighten($orange, 20%);
+        --FriezaFinance-footer-text-active: var(--FriezaFinance-theme-text);
+        --FriezaFinance-page-bg-1: darken($orange, 42%);
+        --FriezaFinance-page-bg-2: darken($orange, 60%);
+        --FriezaFinance-page-link: var(--FriezaFinance-theme-color);
+    }
+
+    .theme-yellow {
+        --FriezaFinance-theme-color: darken($yellow, 40%);
+        --FriezaFinance-theme-color-light: darken($yellow, 36%);
+        --FriezaFinance-theme-bordercolor: darken($yellow, 46%);
+        --FriezaFinance-theme-text: #ffffff;
+        --FriezaFinance-theme-modal: darken($yellow, 36%);
+        --FriezaFinance-header: transparent;
+        --FriezaFinance-header-active: darken($yellow, 32%);
+        --FriezaFinance-header-text: var(--FriezaFinance-theme-text);
+        --FriezaFinance-footer: darken($yellow, 32%);
+        --FriezaFinance-footer-text: lighten($yellow, 20%);
+        --FriezaFinance-footer-text-active: var(--FriezaFinance-theme-text);
+        --FriezaFinance-page-bg-1: darken($yellow, 42%);
+        --FriezaFinance-page-bg-2: darken($yellow, 60%);
+        --FriezaFinance-page-link: var(--FriezaFinance-theme-color);
+    }
+
+    .theme-green {
+        --FriezaFinance-theme-color: darken($green, 32%);
+        --FriezaFinance-theme-color-light: darken($green, 30%);
+        --FriezaFinance-theme-bordercolor: darken($green, 40%);
+        --FriezaFinance-theme-text: #ffffff;
+        --FriezaFinance-theme-modal: darken($green, 30%);
+        --FriezaFinance-header: transparent;
+        --FriezaFinance-header-active: darken($green, 26%);
+        --FriezaFinance-header-text: var(--FriezaFinance-theme-text);
+        --FriezaFinance-footer: darken($green, 26%);
+        --FriezaFinance-footer-text: lighten($green, 25%);
+        --FriezaFinance-footer-text-active: var(--FriezaFinance-theme-text);
+        --FriezaFinance-page-bg-1: darken($green, 35%);
+        --FriezaFinance-page-bg-2: darken($green, 50%);
+        --FriezaFinance-page-link: var(--FriezaFinance-theme-color);
+    }
+
+    .theme-teal {
+        --FriezaFinance-theme-color: darken($teal, 26%);
+        --FriezaFinance-theme-color-light: darken($teal, 20%);
+        --FriezaFinance-theme-bordercolor: darken($teal, 30%);
+        --FriezaFinance-theme-text: #ffffff;
+        --FriezaFinance-theme-modal: darken($teal, 26%);
+        --FriezaFinance-header: transparent;
+        --FriezaFinance-header-active: darken($teal, 26%);
+        --FriezaFinance-header-text: var(--FriezaFinance-theme-text);
+        --FriezaFinance-footer: darken($teal, 26%);
+        --FriezaFinance-footer-text: lighten($teal, 10%);
+        --FriezaFinance-footer-text-active: var(--FriezaFinance-theme-text);
+        --FriezaFinance-page-bg-1: darken($teal, 28%);
+        --FriezaFinance-page-bg-2: darken($teal, 50%);
+        --FriezaFinance-page-link: var(--FriezaFinance-theme-color);
+    }
+
+    .theme-cyan {
+        --FriezaFinance-theme-color: darken($cyan, 32%);
+        --FriezaFinance-theme-color-light: darken($cyan, 30%);
+        --FriezaFinance-theme-bordercolor: darken($cyan, 40%);
+        --FriezaFinance-theme-text: #ffffff;
+        --FriezaFinance-theme-modal: darken($cyan, 30%);
+        --FriezaFinance-header: transparent;
+        --FriezaFinance-header-active: darken($cyan, 26%);
+        --FriezaFinance-header-text: var(--FriezaFinance-theme-text);
+        --FriezaFinance-footer: darken($cyan, 26%);
+        --FriezaFinance-footer-text: lighten($cyan, 25%);
+        --FriezaFinance-footer-text-active: var(--FriezaFinance-theme-text);
+        --FriezaFinance-page-bg-1: darken($cyan, 35%);
+        --FriezaFinance-page-bg-2: darken($cyan, 50%);
+        --FriezaFinance-page-link: var(--FriezaFinance-theme-color);
+    }
+
+    body,
+    .btn {
+        color: var(--FriezaFinance-theme-text);
+    }
+    .text-color-theme {
+        --FriezaFinance-theme-color: #ffffff;
+    }
+    a:not(.btn):not(.list-group-item) {
+        --FriezaFinance-theme-color: #638ef1;
+        &:focus,
+        &:hover,
+        &:active {
+            color: #ffffff;
+        }
+    }
+    .swiper-pagination {
+        .swiper-pagination-bullet {
+            background-color: var(--FriezaFinance-theme-text);
+        }
+    }
+    .tabs .nav-item > .nav-link:not(.active) {
+        --FriezaFinance-theme-color: var(--FriezaFinance-theme-text);
+    }
+    .chartdoughnut > .datadisplay {
+        --FriezaFinance-theme-text: var(--FriezaFinance-theme-color);
+    }
+    .btn-light {
+        background-color: var(--FriezaFinance-page-bg-2);
+        color: var(--FriezaFinance-theme-text);
+        border-color: var(--FriezaFinance-page-bg-2);
+    }
+    .bg-light {
+        background-color: var(--FriezaFinance-card-color) !important;
+    }
+
+    .btn-default:disabled {
+        color: var(--FriezaFinance-theme-text);
+    }
+
+    .card {
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07), inset 0 1px 0px rgba(255, 255, 255, 0.1);
+        -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07), inset 0 1px 0px rgba(255, 255, 255, 0.1);
+        -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07), inset 0 1px 0px rgba(255, 255, 255, 0.1);
+    }
+    .accordion-item {
+        background-color: transparent;
+        .accordion-header {
+            .accordion-button.collapsed {
+                background-color: transparent;
+                color: var(--FriezaFinance-theme-text);
+            }
+        }
+        .accordion-collapse.show {
+            background-color: var(--FriezaFinance-card-color);
+        }
+    }
+    .list-group-item {
+        color: var(--FriezaFinance-theme-text);
+    }
+    .bg-white {
+        background-color: var(--FriezaFinance-theme-color) !important;
+    }
+    .toast {
+        background-color: var(--FriezaFinance-theme-modal);
+        .toast-header {
+            background-color: var(--FriezaFinance-card-color);
+            color: var(--FriezaFinance-card-text);
+        }
+    }
+    .modal-content {
+        background-color: var(--FriezaFinance-theme-modal);
+        .modal-header {
+            border-color: var(--FriezaFinance-theme-bordercolor);
+        }
+    }
+    .form-control,
+    input,
+    .dark-bg .form-control,
+    .dark-bg label {
+        color: var(--FriezaFinance-input-text);
+    }
+    .form-control {
+        background-color: var(--FriezaFinance-input-color);
+        border-color: var(--FriezaFinance-input-bordercolor);
+    }
+    .chat-list .left-chat .chat-block {
+        --FriezaFinance-theme-text: var(--FriezaFinance-page-text);
+    }
+
+    .daterange-center.daterangepicker {
+        background-color: var(--FriezaFinance-page-bg-2);
+        .calendar-table .next span,
+        .calendar-table .prev span {
+            border-color: var(--FriezaFinance-theme-text);
+        }
+        td {
+            &.off {
+                background-color: var(--FriezaFinance-card-color) !important;
+            }
+            &.in-range {
+                color: var(--FriezaFinance-theme-text);
+            }
+        }
+    }
+}

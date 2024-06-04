@@ -88,6 +88,8 @@
                     <div class="col-md-12">
                         <button id="pdfButton" class="site-btn icon">Visualizar CV <i class="fa fa-download"
                                 aria-hidden="true"></i></button>
+                        <!-- <button id="dite4Button" class="site-btn icon">Visualizar dite <i class="fa fa-download"
+                                aria-hidden="true"></i></button> -->
                     </div>
                 </div>
             </div>
@@ -734,7 +736,8 @@
                                                     </li>
                                                     <!-- a work -->
                                                     <li>
-                                                        <h3 class="line-title">Desenvolvedor Full-stack - Paciente 360</h3>
+                                                        <h3 class="line-title">Desenvolvedor Full-stack - Paciente 360
+                                                        </h3>
                                                         <span>2019 - 2019</span>
                                                         <p class="little-text">Desenvolvimento NodeJS;
                                                             </br>
@@ -847,7 +850,8 @@
                                                     <h3 class="line-title">FreeCodeCamp - Certificação -</h3>
                                                     </br>
                                                     <h3 class="line-title"><a
-                                                            href="https://www.freecodecamp.org/certification/harold_illert/front-end-development-libraries">Front end development Libraries</a></h3>
+                                                            href="https://www.freecodecamp.org/certification/harold_illert/front-end-development-libraries">Front
+                                                            end development Libraries</a></h3>
                                                     <span>2024</span>
                                                 </li>
                                                 <!-- a work -->
@@ -1248,6 +1252,92 @@
                                                 </figure>
                                             </a>
                                         </div>
+                                        <!-- a work -->
+                                        <div class="cbp-item Games">
+                                            <a href="portfolio-detail/work-14.html" class="cbp-singlePage">
+                                                <figure>
+                                                    <div class="icon">
+                                                        <i class="fa fa-clone" aria-hidden="true"></i>
+                                                    </div>
+                                                    <img src="images/portfolio-content/multyplayerCabbage/multiplayer1.png"
+                                                        alt="">
+                                                    <figcaption>
+                                                        <span class="title">Multiplayer Cabbage</span><br />
+                                                        <span class="info">Jogo feito para aprender sobre netcode e
+                                                            funcionamento multiplayer em
+                                                            unity.</span>
+                                                    </figcaption>
+                                                </figure>
+                                            </a>
+                                        </div>
+                                        <!-- a work -->
+                                        <div class="cbp-item Games">
+                                            <a href="portfolio-detail/work-15.html" class="cbp-singlePage">
+                                                <figure>
+                                                    <div class="icon">
+                                                        <i class="fa fa-clone" aria-hidden="true"></i>
+                                                    </div>
+                                                    <img src="images/portfolio-content/nftGame1/nftgame1.png" alt="">
+                                                    <figcaption>
+                                                        <span class="title">NFT game With Thirdweb HARRY</span><br />
+                                                        <span class="info">Jogo feito para aprender sobre uma sdk para
+                                                            desenvolvimento de jogos nft em
+                                                            unity.</span>
+                                                    </figcaption>
+                                                </figure>
+                                            </a>
+                                        </div>
+                                        <!-- a work -->
+                                        <div class="cbp-item Front-end">
+                                            <a href="portfolio-detail/work-16.html" class="cbp-singlePage">
+                                                <figure>
+                                                    <div class="icon">
+                                                        <i class="fa fa-clone" aria-hidden="true"></i>
+                                                    </div>
+                                                    <img src="images/portfolio-content/nftmarketplace1/nftmarketplace1.png"
+                                                        alt="">
+                                                    <figcaption>
+                                                        <span class="title">Nft Marketplace 1</span><br />
+                                                        <span class="info">Marketplace com 5 homes em HTML com versão em
+                                                            angular em repo privado</span>
+                                                    </figcaption>
+                                                </figure>
+                                            </a>
+                                        </div>
+                                        <!-- a work -->
+                                        <div class="cbp-item Front-end">
+                                            <a href="portfolio-detail/work-17.html" class="cbp-singlePage">
+                                                <figure>
+                                                    <div class="icon">
+                                                        <i class="fa fa-clone" aria-hidden="true"></i>
+                                                    </div>
+                                                    <img src="images/portfolio-content/nftmarketplace2/nftmarketplace1.png"
+                                                        alt="">
+                                                    <figcaption>
+                                                        <span class="title">Nft Marketplace 2</span><br />
+                                                        <span class="info">Marketplace com 2 homes em HTML com versão em
+                                                            angular em repo privado</span>
+                                                    </figcaption>
+                                                </figure>
+                                            </a>
+                                        </div>
+                                        <!-- a work -->
+                                        <div class="cbp-item Front-end">
+                                            <a href="portfolio-detail/work-18.html" class="cbp-singlePage">
+                                                <figure>
+                                                    <div class="icon">
+                                                        <i class="fa fa-clone" aria-hidden="true"></i>
+                                                    </div>
+                                                    <img src="images/portfolio-content/FinanceBoard/FinanceBoard1.png"
+                                                        alt="">
+                                                    <figcaption>
+                                                        <span class="title">Finance Board</span><br />
+                                                        <span class="info">Um board de finanças HTML com versão em
+                                                            react e vue em repo privado</span>
+                                                    </figcaption>
+                                                </figure>
+                                            </a>
+                                        </div>
                                     </div>
                                     <!-- load more button -->
                                     <!-- <div id="js-loadMore-agency" class="cbp-l-loadMore-button top_30">
@@ -1444,6 +1534,12 @@
         $(document).ready(function () {
             $('#pdfButton').click(function () {
                 var pdfUrl = 'images/Total.pdf';
+                window.open(pdfUrl, '_blank');
+            });
+        });
+        $(document).ready(function () {
+            $('#dite4Button').click(function () {
+                var pdfUrl = './TechLanding/index.html';
                 window.open(pdfUrl, '_blank');
             });
         });
