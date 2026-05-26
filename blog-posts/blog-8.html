@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unity ou Unreal: minha visao com experiencia pratica | Harold Illert</title>
-    <meta name="description" content="Comparativo entre Unity e Unreal a partir de uma vivencia mais pratica com prototipos, estudos e projetos ligados a games.">
+    <title>Como eu pensaria um Flappy Bird em Unity para estudar bem | Harold Illert</title>
+    <meta name="description" content="Um caminho pratico para construir Flappy Bird em Unity com foco em gameplay, iteracao e aprendizado tecnico.">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,44 +36,50 @@
         <div class="container article-shell">
             <section class="article-grid">
                 <article class="article-hero">
-                    <img class="article-cover" src="../images/blogs/unrealvsunity/unrealvsunity.webp" alt="Capa do artigo Unity ou Unreal: minha visao com experiencia pratica">
+                    <img class="article-cover" src="https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=stylized%202d%20side%20scrolling%20bird%20game%20development%20scene%2C%20indie%20mobile%20game%20tutorial%20cover%2C%20colorful%20sky%2C%20pipes%20obstacles%2C%20playful%20polished%20art%2C%20professional%20composition%2C%20no%20text&image_size=landscape_16_9" alt="Capa do artigo Como eu pensaria um Flappy Bird em Unity para estudar bem">
                     <div class="article-body-wrap">
                         <div class="article-meta">
-                            <span class="meta-pill">Games</span>
-                            <span class="meta-pill">17/08/2023</span>
-                            <span class="meta-pill">6 min</span>
+                            <span class="meta-pill">Unity</span>
+                            <span class="meta-pill">26/05/2026</span>
+                            <span class="meta-pill">7 min</span>
                         </div>
-                        <h1 class="article-title">Unity ou Unreal: minha visao com experiencia pratica</h1>
-                        <p class="article-lead">Eu gosto das duas engines, mas minha relacao com Unity sempre foi mais proxima. Como ja passei por projetos e estudos em desenvolvimento de jogos, acabei formando uma opiniao mais pragmatica sobre quando cada uma faz sentido.</p>
+                        <h1 class="article-title">Como eu pensaria um Flappy Bird em Unity para estudar bem</h1>
+                        <p class="article-lead">Projetos pequenos como Flappy Bird sao otimos porque concentram muita coisa importante em pouco escopo: fisica, input, spawn, colisao, pontuacao, feedback e reinicio de loop. E exatamente por isso eu gosto deles para estudo.</p>
                     </div>
                 </article>
 
                 <article class="article-card">
                     <div class="article-prose">
-                        <h2>Onde Unity me ganhou</h2>
-            <p>Unity sempre me pareceu uma escolha mais rapida para tirar ideia do papel. Para quem quer estudar gameplay, UI, fisica 2D, mobile ou prototipos menores, ela me parece muito eficiente.</p>
+                        <h2>Por que eu gosto desse tipo de projeto</h2>
+            <p>Como tenho interesse forte em desenvolvimento de jogos e ja passei por contextos ligados a Unity, eu vejo clones pequenos como laboratorios de aprendizado. Eles ajudam a fechar ciclo: planejar, montar cena, ajustar sensacao, polir e concluir.</p>
+            <h2>O minimo que eu montaria primeiro</h2>
             <ul>
-                <li>C# encaixa bem para quem ja tem base em desenvolvimento tradicional.</li>
-                <li>O fluxo de prototipacao costuma ser mais direto.</li>
-                <li>Existe muito material bom para jogos pequenos e medios.</li>
-                <li>Para quem quer estudar e finalizar projetos, a curva me parece mais amigavel.</li>
+                <li>Um passaro com <code>Rigidbody2D</code> e <code>Collider2D</code>.</li>
+                <li>Um prefab de tubos com espaco central para passagem.</li>
+                <li>Um spawner simples com intervalo fixo.</li>
+                <li>UI com score atual e tela de game over.</li>
             </ul>
-            <h2>Quando Unreal chama atencao</h2>
-            <p>Unreal me chama mais pelo peso visual e pela robustez em 3D. Quando a meta e mirar algo mais cinematografico ou com ambicao grafica maior, ela brilha.</p>
+            <h2>A mecanica principal</h2>
+            <p>O ponto mais importante e a sensacao do pulo. Eu gosto de resetar a velocidade vertical antes de aplicar o impulso, porque isso deixa a resposta mais consistente.</p>
+            <pre><code>if (Input.GetMouseButtonDown(0)) {
+    rb.velocity = Vector2.up * jumpForce;
+}</code></pre>
+            <h2>O que transforma estudo em projeto de verdade</h2>
             <ul>
-                <li>Ferramentas visuais fortes para prototipacao.</li>
-                <li>Pipeline excelente para experiencias mais pesadas.</li>
-                <li>Qualidade grafica impressionante em 3D.</li>
+                <li>Ajuste fino de velocidade, gravidade e abertura dos obstaculos.</li>
+                <li>Animacao simples para dar vida ao personagem.</li>
+                <li>Efeitos sonoros para ponto, pulo e colisao.</li>
+                <li>Tela inicial, restart e melhor score.</li>
             </ul>
-            <h2>Minha conclusao sincera</h2>
-            <p>Para o tipo de projeto que mais gosto de iniciar sozinho, estudar ou iterar rapido, Unity costuma funcionar melhor para mim. Unreal continua sendo uma ferramenta muito forte, mas eu costumo enxergar Unity como a melhor porta de entrada para construir e terminar jogos menores.</p>
-            <blockquote>A melhor engine quase sempre e a que te ajuda a terminar o jogo, aprender com o processo e seguir para o proximo projeto com mais maturidade.</blockquote>
+            <h2>O valor tecnico por tras de um jogo simples</h2>
+            <p>Esse tipo de projeto parece pequeno, mas ensina muito sobre ritmo de interacao, dificuldade, feedback e polimento. E um bom exemplo de como jogos ajudam a desenvolver sensibilidade para software interativo no geral.</p>
+            <blockquote>Eu gosto de projetos assim porque eles treinam algo essencial: terminar, observar o resultado, ajustar e aprender com o que foi construido.</blockquote>
                     </div>
                 </article>
 
                 <article class="note-card">
                     <h3>Resumo rapido</h3>
-                    <p>Uma leitura pratica sobre Unity e Unreal baseada em experiencia real e perfil de projeto.</p>
+                    <p>Um roteiro de estudo em Unity focado em terminar um jogo simples, polido e util para aprendizado.</p>
                     <a class="back-link" href="../index.html#artigos"><i class="fa fa-arrow-left" aria-hidden="true"></i> Voltar para os artigos</a>
                 </article>
 
@@ -96,7 +102,7 @@
                 <section class="aside-card">
                     <h3>Mais artigos</h3>
                     <ul class="aside-list">
-                        <li><a href="blog-1.html">README do GitHub como vitrine</a></li><li><a href="blog-2.html">Extensoes de VSCode</a></li><li><a href="blog-6.html">Canais de GameDev</a></li><li><a href="blog-7.html">Deploy na Play Store</a></li><li><a href="blog-8.html">Flappy Bird em Unity</a></li><li><a href="blog-9.html">Logs com GCP e Dynatrace</a></li><li><a href="blog-10.html">API Flask organizada</a></li><li><a href="blog-11.html">CI/CD com Jenkins</a></li><li><a href="blog-12.html">NestJS + Solidity</a></li>
+                        <li><a href="blog-1.html">README do GitHub como vitrine</a></li><li><a href="blog-2.html">Extensoes de VSCode</a></li><li><a href="blog-3.html">Unity ou Unreal</a></li><li><a href="blog-6.html">Canais de GameDev</a></li><li><a href="blog-7.html">Deploy na Play Store</a></li><li><a href="blog-9.html">Logs com GCP e Dynatrace</a></li><li><a href="blog-10.html">API Flask organizada</a></li><li><a href="blog-11.html">CI/CD com Jenkins</a></li><li><a href="blog-12.html">NestJS + Solidity</a></li>
                     </ul>
                 </section>
                 <section class="aside-card">

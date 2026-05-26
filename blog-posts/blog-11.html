@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Extensoes de VSCode que combinam com minha rotina | Harold Illert</title>
-    <meta name="description" content="Extensoes de VSCode que fazem sentido para uma rotina que mistura full-stack, cloud, web3, Unity e produtividade.">
+    <title>Como eu penso um pipeline CI/CD com Jenkins, Docker e Kubernetes | Harold Illert</title>
+    <meta name="description" content="Uma visao pratica sobre pipeline de entrega continua que conecta build, testes, imagem, deploy e rollback com menos friccao.">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,49 +36,53 @@
         <div class="container article-shell">
             <section class="article-grid">
                 <article class="article-hero">
-                    <img class="article-cover" src="../images/blogs/vscodeext/vscode.png" alt="Capa do artigo Extensoes de VSCode que combinam com minha rotina">
+                    <img class="article-cover" src="../images/portfolio-content/DevOpsStudy/devops.webp" alt="Capa do artigo Como eu penso um pipeline CI/CD com Jenkins, Docker e Kubernetes">
                     <div class="article-body-wrap">
                         <div class="article-meta">
-                            <span class="meta-pill">Ferramentas</span>
-                            <span class="meta-pill">17/08/2023</span>
-                            <span class="meta-pill">5 min</span>
+                            <span class="meta-pill">DevOps</span>
+                            <span class="meta-pill">26/05/2026</span>
+                            <span class="meta-pill">9 min</span>
                         </div>
-                        <h1 class="article-title">Extensoes de VSCode que combinam com minha rotina</h1>
-                        <p class="article-lead">Como eu alterno entre backend, frontend, cloud, scripts, web3 e ate projetos em Unity, meu VSCode virou uma ferramenta central. O segredo foi montar um conjunto enxuto de extensoes que realmente ajudam.</p>
+                        <h1 class="article-title">Como eu penso um pipeline CI/CD com Jenkins, Docker e Kubernetes</h1>
+                        <p class="article-lead">Quando pipeline e mal pensado, o time perde confianca na entrega. Quando e bem pensado, ele vira parte natural do trabalho. Foi convivendo com Jenkins, Docker, Kubernetes e ambientes reais que eu formei essa leitura mais pragmatica.</p>
                     </div>
                 </article>
 
                 <article class="article-card">
                     <div class="article-prose">
-                        <h2>Meu criterio para instalar extensoes</h2>
-            <p>Eu so mantenho extensoes que melhoram leitura, navegacao, debug ou produtividade. Quando a IDE fica pesada ou poluida demais, o ganho desaparece.</p>
-            <h2>As que fazem mais sentido no meu dia a dia</h2>
+                        <h2>Meu ponto de partida</h2>
+            <p>Eu gosto de pipeline que tenha poucas etapas, mas cada uma com papel claro: validar, empacotar, publicar e implantar. Complexidade sem motivo costuma enfraquecer a confianca do time.</p>
+            <h2>Etapas que eu considero basicas</h2>
+            <ol>
+                <li>Instalar dependencias e preparar ambiente.</li>
+                <li>Rodar lint e testes relevantes.</li>
+                <li>Gerar imagem Docker versionada.</li>
+                <li>Publicar a imagem em registry.</li>
+                <li>Atualizar deploy no Kubernetes com rastreabilidade.</li>
+            </ol>
+            <h2>O que eu evitaria</h2>
             <ul>
-                <li><strong>Docker</strong> para inspecionar containers e imagens com mais rapidez.</li>
-                <li><strong>Error Lens</strong> para deixar erros e avisos muito mais visiveis.</li>
-                <li><strong>Git Graph</strong> e <strong>Git History</strong> para navegar melhor no historico.</li>
-                <li><strong>C#</strong> e <strong>C# Dev Kit</strong> quando estou mexendo com Unity ou .NET.</li>
-                <li><strong>Prisma</strong>, <strong>Solidity</strong> e snippets especificos quando o projeto pede.</li>
-                <li><strong>WakaTime</strong> para observar quanto tempo estou dedicando por contexto tecnico.</li>
+                <li>Pipeline com dezenas de etapas sem ganho real.</li>
+                <li>Deploy sem versionamento claro de imagem.</li>
+                <li>Segredo espalhado em job ou script solto.</li>
+                <li>Rollback improvisado.</li>
             </ul>
             <h2>Por que isso conversa com minha experiencia</h2>
-            <p>Como ja trabalhei com Node.js, Flask, Angular, React, C#, Solidity, infraestrutura e testes, eu preciso de uma IDE que acompanhe bem essa mudanca de contexto. Por isso dou mais valor para navegacao, leitura e feedback rapido do que para efeitos visuais.</p>
-            <h2>Temas e conforto visual</h2>
-            <p>Gosto de temas que ajudem a passar muito tempo codando sem cansar. Entre os que eu mais curto estao City Lights, Cyberpunk Theme, 2077 Theme e Material Icon Theme.</p>
-            <div class="article-inline-image">
-                <img src="../images/blogs/vscodeext/vscode2.png" alt="Painel de extensoes do VSCode">
-            </div>
+            <p>Minha experiencia com plataforma, DevSecOps e ambiente cloud me ensinou que o pipeline precisa ser uma extensao da rotina de engenharia. Se ele gera medo, ele esta mal desenhado.</p>
+            <blockquote>O melhor pipeline nao e o mais impressionante no diagrama. E o que o time usa sem receio para entregar mudanca com consistencia.</blockquote>
+            <h2>Minha regra pratica</h2>
+            <p>Se eu nao consigo explicar em poucos minutos como o pipeline sobe, valida e volta atras, ele provavelmente esta complicado demais.</p>
                     </div>
                 </article>
 
                 <article class="note-card">
                     <h3>Resumo rapido</h3>
-                    <p>Minha selecao pessoal de extensoes para uma rotina tecnica bem variada.</p>
+                    <p>Um roteiro pratico para pensar pipeline CI/CD de forma confiavel e util para o time.</p>
                     <a class="back-link" href="../index.html#artigos"><i class="fa fa-arrow-left" aria-hidden="true"></i> Voltar para os artigos</a>
                 </article>
 
                 <div class="related-grid">
-                    <article class="related-card"><h3>README do GitHub como vitrine</h3><p>Um guia pratico para usar o README do GitHub como apresentacao tecnica e profissional.</p><a class="back-link" href="blog-1.html">Ler artigo</a></article><article class="related-card"><h3>Unity ou Unreal</h3><p>Uma leitura pratica sobre Unity e Unreal baseada em experiencia real e perfil de projeto.</p><a class="back-link" href="blog-3.html">Ler artigo</a></article>
+                    <article class="related-card"><h3>README do GitHub como vitrine</h3><p>Um guia pratico para usar o README do GitHub como apresentacao tecnica e profissional.</p><a class="back-link" href="blog-1.html">Ler artigo</a></article><article class="related-card"><h3>Extensoes de VSCode</h3><p>Minha selecao pessoal de extensoes para uma rotina tecnica bem variada.</p><a class="back-link" href="blog-2.html">Ler artigo</a></article>
                 </div>
             </section>
 
@@ -96,7 +100,7 @@
                 <section class="aside-card">
                     <h3>Mais artigos</h3>
                     <ul class="aside-list">
-                        <li><a href="blog-1.html">README do GitHub como vitrine</a></li><li><a href="blog-3.html">Unity ou Unreal</a></li><li><a href="blog-6.html">Canais de GameDev</a></li><li><a href="blog-7.html">Deploy na Play Store</a></li><li><a href="blog-8.html">Flappy Bird em Unity</a></li><li><a href="blog-9.html">Logs com GCP e Dynatrace</a></li><li><a href="blog-10.html">API Flask organizada</a></li><li><a href="blog-11.html">CI/CD com Jenkins</a></li><li><a href="blog-12.html">NestJS + Solidity</a></li>
+                        <li><a href="blog-1.html">README do GitHub como vitrine</a></li><li><a href="blog-2.html">Extensoes de VSCode</a></li><li><a href="blog-3.html">Unity ou Unreal</a></li><li><a href="blog-6.html">Canais de GameDev</a></li><li><a href="blog-7.html">Deploy na Play Store</a></li><li><a href="blog-8.html">Flappy Bird em Unity</a></li><li><a href="blog-9.html">Logs com GCP e Dynatrace</a></li><li><a href="blog-10.html">API Flask organizada</a></li><li><a href="blog-12.html">NestJS + Solidity</a></li>
                     </ul>
                 </section>
                 <section class="aside-card">
